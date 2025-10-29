@@ -12,7 +12,7 @@ app.get('/index.html', (req, res) => {
             console.error(err);
             return;
         }
-        console.log(data);
+        //console.log(data);
         res.writeHead(200, { 'Content-Type': 'text/html'})
         res.end(data);
     });

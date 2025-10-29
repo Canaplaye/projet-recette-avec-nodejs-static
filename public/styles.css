@@ -1,0 +1,141 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+
+}
+
+.liste {
+    padding: 11px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: #343a40;
+    font-weight: 800;
+    font-size: x-large;
+
+}
+
+.liste-more {
+    border-radius: 40px;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: large;
+    background-color: brown;
+}
+
+.liste:hover {
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.11);
+    transform: translate3d(10px, 5px, 0px);
+    transition: transform 0.4s ease-in-out;
+}
+
+.liste-more:hover {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
+    transform: translate3d(10px, 5px, 0px);
+    transition: transform 0.4s ease-in-out;
+}
+
+.nav-right {
+    margin-left: 50%;
+    padding: 10px;
+}
+
+.image-banniere {
+    border-radius: 30px;
+    width: 80%;
+    height: 700px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    margin-top: 52px;
+
+}
+
+
+
+#banniere-bouton {
+    border-radius: 20px;
+    padding: 7px;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -8%;
+    display: block;
+    text-decoration: none;
+    color: #222c36;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: xx-large;
+    transition: transform 0.4s ease-in-out;
+
+}
+
+#banniere-bouton:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.137);
+    transform: translate3d(10px, 5px, 0px);
+
+}
+
+.banniere-h1 {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 5%;
+    display: block;
+    font-weight: 800;
+    font-size: 90px;
+}
+
+.banniere-h2 {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 11%;
+    display: block;
+    font-weight: 800;
+    font-size: 70px;
+    text-shadow: 0px 0px 10px rgba(192, 192, 192, 0.123);
+}
+
+.highlight {
+    color: brown;
+}
+
+.banniere-p {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 17%;
+    display: block;
+    font-weight: 500;
+    font-size: 40px;
+    text-shadow: 0px 0px 10px rgba(192, 192, 192, 0.308);
+}
+
+#cross {
+    transform: translate3d(px, 20px, 0px);
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button i {
+    font-size: 30px;
+}
+
+button:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.137);
+    transform: translate3d(0px, 10px, 0px);
+}
+
+.liste-more2 {
+    border-radius: 40px;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: #343a40;
+    font-weight: 100;
+    font-size: large;
+}
